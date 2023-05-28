@@ -7,7 +7,7 @@ import product6 from "./assets/png06.jpg";
 import product7 from "./assets/png7.png";
 import product8 from "./assets/png8.avif";
 import product9 from "./assets/web.png";
-import product10 from "./assets/png10.jpg";
+import product10 from "./assets/img.png";
 
 export const PRODUCTS = [
   {
