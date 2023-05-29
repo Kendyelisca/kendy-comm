@@ -6,7 +6,7 @@ export const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <h1>Kendy Online Store</h1>
+        <h1 className="typing-animation">Kendy Online Store</h1>
       </div>
       <div className="products">
         {PRODUCTS.map((product) => (

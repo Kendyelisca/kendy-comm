@@ -52,6 +52,23 @@
   cursor: pointer;
 }
 
+@keyframes typing {
+  from { width: 0; }
+  to { width: 76%; }
+}
+
+
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(30, end) ;
+}
+
+
+
+
 @media screen and (max-width: 600px) {
   .products {
     flex-direction: column;
