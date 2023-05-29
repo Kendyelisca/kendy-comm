@@ -55,6 +55,7 @@
 @media screen and (max-width: 600px) {
   .products {
     flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   .product img {
